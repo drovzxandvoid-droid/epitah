@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "epitah",
+  "version": "${version}",
+  "name": "Clumps",
+  "description": "Clumps xp orbs together.",
+  "authors": [
+    "Epitah Developer"
+  ],
+  "contact": {
+    "homepage": "https://github.com/drovzxandvoid-droid/epitah"
+  },
+  "license": "MIT",
+  "icon": "assets/epitah/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.epitah.EpitahModMain"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.19",
+    "java": ">=17"
+  }
+}
